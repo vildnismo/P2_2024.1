@@ -4,7 +4,7 @@ public class gnose {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(
-                "Bem vindo a Jornada Filosasdasdasdasdasdasdasdaofofica, filosofofo!\nVocê foi escolhido para esta jornada em busca da Fonte da Sabedoria.");
+                "Bem vindo a Jornada Filosofica, aspirante a filosofo!\nVocê foi escolhido para esta jornada em busca da Fonte da Sabedoria.");
         System.out.println("Você aceita o desafio? (s/n)");
         char escolha = scanner.next().charAt(0);
         if (escolha == 's') {
@@ -15,7 +15,6 @@ public class gnose {
             System.out.println("Opção inválida. Fim da jornada.");
         }
     }
-
     public static void escolhaCaminho(Scanner scanner) {
         System.out.println("\nVocê entra no Labirinto da Sabedoria.\nEscolha a trilha: Lógica (l) ou Ética (e)");
         char escolha = scanner.next().charAt(0);
